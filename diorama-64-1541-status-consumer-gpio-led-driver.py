@@ -16,7 +16,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup([powerLedsPin,drive8ActivityPin,drive9ActivityPin],
         GPIO.OUT, initial=GPIO.HIGH)
 
-print (f"GPIO Pins initialized.")
+print ("GPIO Pins initialized.")
 
 def initializeLEDLighting():
     print ("Initializing LEDs. (NO-OP)")
